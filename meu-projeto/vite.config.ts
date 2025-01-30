@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // Garante que os assets carreguem corretamente
+  base: "./", // Evita problemas de carregamento no Vercel
   build: {
-    outDir: "dist",
+    outDir: "dist", // Garante que a build seja gerada na pasta correta
   },
 });

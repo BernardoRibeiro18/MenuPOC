@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Importando os componentes de roteamento
-import Menu from './menu.tsx'; // Importando o Menu
+import Menu from './menu'; // Importando o Menu
 
 // Páginas do site (substitua com seus componentes reais)
 import Inicio from './pages/Inicio';

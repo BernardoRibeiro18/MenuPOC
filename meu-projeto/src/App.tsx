@@ -12,6 +12,13 @@ import Enquetes from './pages/Enquetes';
 import Parceiros from './pages/Parceiros';
 import Contato from './pages/Contato';
 import Patrocinadores from './pages/Patrocinadores';
+import Conceitos from './pages/Conceitos';
+import MarcoLegal from './pages/Marco-legal';
+import CulturaSociedade from './pages/Cultura-sociedade';
+import PatrimonioDiversidade from './pages/Patrimonio-diversidade';
+import Estrategias from './pages/Estrategias';
+import NoticiasRelatos from './pages/Noticias-relatos';
+import Footer from "./footer";
 
 function App() {
   
@@ -30,7 +37,14 @@ function App() {
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/patrocinadores" element={<Patrocinadores />} />
+        <Route path="/conceitos" element={<Conceitos />} />
+        <Route path="/marco-legal" element={<MarcoLegal />} />
+        <Route path="/cultura-sociedade" element={<CulturaSociedade />} />
+        <Route path="/patrimonio-diversidade" element={<PatrimonioDiversidade />} />
+        <Route path="/estrategias" element={<Estrategias />} />
+        <Route path="/noticias-relatos" element={<NoticiasRelatos />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

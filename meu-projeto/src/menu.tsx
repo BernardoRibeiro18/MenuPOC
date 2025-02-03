@@ -68,8 +68,8 @@ const Menu: React.FC = () => {
             Proteger
           </button>
           <ul className={`sub-menu ${subMenuAberto["proteger"] ? "sub-menu-aberto" : ""}`}>
-            <li><Link to="/estrategias">Estratégias</Link></li>
-            <li><Link to="/noticias-relatos">Notícias e relatos</Link></li>
+            <li><Link to="/estrategias">O que fazer</Link></li>
+            <li><Link to="/noticias-relatos">O que fazemos</Link></li>
           </ul>
         </li>
 

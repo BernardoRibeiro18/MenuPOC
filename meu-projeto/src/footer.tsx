@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <p>&copy; {new Date().getFullYear()} Meu Site. Todos os direitos reservados.</p>
         <nav>
           <ul className="footer-menu">
-            <li><a href="/Parceiros">Parceiros</a></li>
+            <li><a href="/parceiros">Parceiros</a></li>
             <li><a href="/contato">Contato</a></li>
             <li><a href="/patrocinadores">Patrocinadores</a></li>
           </ul>

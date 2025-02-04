@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p>&copy; {new Date().getFullYear()} Meu Site. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Observatório Cultural da Mata. Todos os direitos reservados.</p>
         <nav>
           <ul className="footer-menu">
             <li><a href="/parceiros">Parceiros</a></li>

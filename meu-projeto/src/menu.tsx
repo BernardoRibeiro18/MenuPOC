@@ -19,7 +19,7 @@ const Menu: React.FC = () => {
 
   return (
     <nav className="menu">
-      <div className="menu-title">Meu Site</div>
+      <div className="menu-title">Observatório Cultural da Mata</div>
       <button className="menu-toggle" onClick={toggleMenu}>
         ☰
       </button>
